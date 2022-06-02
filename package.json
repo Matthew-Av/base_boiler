@@ -157,5 +157,10 @@
         "ignore": [
             "*.hot-update.json"
         ]
-    }
+    },
+    "browserslist": [
+        "last 20 versions",
+        ">1%",
+        "ie>=8"
+    ]
 }
