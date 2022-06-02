@@ -1,0 +1,47 @@
+//image urls
+$top-bg:  url('../images/slider-bg.png');
+$main-block: url('../images/order-bg.png');
+
+//colors
+$main-color: #272733;
+$accent-color: #3E9CDC;
+$text-main-color: #ffffff;
+$prim-txt-clr: #FFFFFF;
+$sec-txt-clr: #2A2B30;
+$btn-prim-bg-clr: #3E9CDC;
+$btn-sec-bg-clr: #ffffff;
+$btn-prim-bord-col: #ffffff;
+$btn-sec-bord-col: #6F6D7B;
+
+//other
+$main-font-size: 14px;
+$h1-size: 48px;
+$h2-size: 36px;
+$top-menu-height: 100px;
+$footer-el-border: 1px solid #FFFFFF;
+
+%block-center {
+	margin: 0 auto 0;
+	max-width: 1200px;
+	min-width: 300px;
+	width: 100%;
+}
+%divider-footer {
+	content: "|";
+	display: block;
+	width: 1px;
+	height: 18px;
+	color: #C3C3C3;
+	border: none;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+}
+@media (max-width: 980px) { 
+	$h1-size: 38px;
+	$h2-size: 28px;
+}
+@media (max-width: 768px) { 
+	$h1-size: 34px;
+	$h2-size: 20px;
+}
