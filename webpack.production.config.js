@@ -90,15 +90,6 @@ const config = {
           }
         ]
       },
-
-      {
-        test: /\.(png|jpg|gif|webp)$/,
-        use: [
-          {
-            loader: 'file-loader'
-          }
-        ]
-      },
       {
         test: /\.eot$/,
         use: [
@@ -120,25 +111,6 @@ const config = {
         use: [
           {
             loader: 'file-loader'
-          }
-        ]
-      },
-      {
-        test: /\.svg$/,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: '[name].[ext]',
-              outputPath: 'fonts/'
-            }
-          },
-          {
-            loader: 'svg-url-loader',
-            options: {
-              limit: 10 * 1024,
-              noquotes: true
-            }
           }
         ]
       }
